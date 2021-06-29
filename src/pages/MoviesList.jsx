@@ -46,21 +46,19 @@ class MoviesList extends Component {
                         </span>
                     )
                 },
+                width: 700
             },
             {
                 Header: 'Name',
                 accessor: 'name',
-                width: 500
             },
             {
                 Header: 'Language',
                 accessor: 'language',
-                width: 400
             },
             {
                 Header: 'Year Of Realease',
                 accessor: 'year',
-                width: 200
             },
         ]
         let showTable = true

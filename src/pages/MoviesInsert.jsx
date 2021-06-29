@@ -32,12 +32,6 @@ const Button = styled.button.attrs({
     margin: 15px 15px 15px 5px;
 `
 
-const CancelButton = styled.a.attrs({
-    className: `btn btn-danger`,
-})`
-    margin: 15px 15px 15px 5px;
-`
-
 class MoviesInsert extends Component {
     constructor(props) {
         super(props)
