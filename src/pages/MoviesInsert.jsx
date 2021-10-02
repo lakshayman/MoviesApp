@@ -31,6 +31,10 @@ const Button = styled.button.attrs({
 })`
     margin: 15px 15px 15px 5px;
 `
+const Footer = styled.footer`
+    text-align: center;
+    margin-top: 2rem
+`;
 
 class MoviesInsert extends Component {
     constructor(props) {
@@ -151,6 +155,9 @@ class MoviesInsert extends Component {
                 
                 <div>{ error }</div>
             </Wrapper>)}
+            <Footer>
+                <a href="https://github.com/lakshayman/MoviesApp/tree/master" target="_blank">Repository Link</a>
+            </Footer>
         </div>
         )
     }

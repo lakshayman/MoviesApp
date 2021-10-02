@@ -11,6 +11,11 @@ const Wrapper = styled.div`
     padding: 0 40px 40px 40px;
 `
 
+const Footer = styled.footer`
+    text-align: center;
+    margin-top: 2rem
+`;
+
 class MoviesList extends Component {
     constructor(props) {
         super(props)
@@ -79,7 +84,9 @@ class MoviesList extends Component {
                         minRows={0}
                     />
                 )}
-            
+                <Footer>
+                <a href="https://github.com/lakshayman/MoviesApp/tree/master" target="_blank">Repository Link</a>
+                </Footer>
            </Wrapper>
         )
     }
